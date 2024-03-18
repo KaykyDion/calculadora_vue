@@ -16,9 +16,7 @@ const sum = () => {
   }
 
   return (state.result = eval(
-    `${parseFloat(state.number_a)} ${state.operator} ${parseFloat(
-      state.number_b
-    )}`
+    `${state.number_a} ${state.operator} ${state.number_b}`
   ));
 };
 </script>
